@@ -1,0 +1,30 @@
+.headline {
+    color: darkgreen;
+}
+
+.headline, .sub-headline {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.might-like {
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+}
+
+
