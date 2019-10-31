@@ -12,7 +12,8 @@ body {
     padding: 0%;
     margin: 0%;
     cursor: pointer;
-    /* overflow: hidden; */
+    overflow: hidden;
+    z-index: 1;
 }
 
 nav span {
@@ -27,7 +28,7 @@ nav span {
 .nav-item {
     position: relative;
     display: block;
-    margin: 1.0%;
+    margin: 1%;
     font-family: 'Ruda';
     float: right;
 }
@@ -41,3 +42,32 @@ nav span {
 
 /* END NAVBAR */
 
+/* POSTS */
+.post-container {
+    position: relative;
+    top: 45px;
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+}
+.post {
+    display: inline-block;
+    margin: 0%;
+    line-height: 1.6;
+    padding: 1%;
+    border-bottom: black 1px solid;
+}
+.date{
+    margin: 0%;
+    padding: 1%;
+
+}
+.title{
+    margin: 0%;
+    padding: 1%;
+
+}
+.image{
+    float: left;
+    margin: 1%;
+}
