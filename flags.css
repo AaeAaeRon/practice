@@ -1,0 +1,323 @@
+body {
+    background-color: gray;
+}
+.franceL {
+    position: relative;
+    display: inline-block;
+    background: blue;
+    width: 60px;
+    height: 125px;
+}
+.franceC {
+    position: relative;
+    display: inline-block;
+    background: white;
+    width: 60px;
+    height: 125px;
+    left: -4px;
+}
+.franceR {
+    position: relative;
+    display: inline-block;
+    background: red;
+    width: 60px;
+    height: 125px;
+    left: -8px;
+
+}
+
+.gerT {
+    /* position: ; */
+    background : black;
+    width: 170px;
+    height: 40px;
+}
+
+.gerM {
+    background : red;
+    width: 170px;
+    height: 40px;
+}
+
+.gerB {
+    background : orange;
+    width: 170px;
+    height: 40px;
+}
+
+.madL {
+    position: relative;
+    display: inline-block;
+    background : white;
+    width: 65px;
+    height: 125px;
+    left: 3.5px;
+   
+}
+.madT {
+    position: absolute;
+    display: inline-block;
+    background : red;
+    width: 140px;
+    height: 62px;
+}
+.madB {
+    position: relative;
+    display: inline-block;
+    background : green;
+    width: 140px;
+    height: 62px;
+}
+
+.swiss-back{
+    background: red;
+    width: 175px;
+    height: 175px;
+}
+
+.swiss1{
+    position: absolute;
+    background: white;
+    width: 35px;
+    height: 100px;
+    left: 73px;
+    bottom: 33px
+
+}
+
+.swiss2{
+    position: absolute;
+    background: white;
+    width: 100px;
+    height: 35px;
+    left: 42px;
+    top: 685px
+}
+
+.sweed1{
+    background: #328AD4;
+    width: 230px;
+    height: 120px;
+    left: 73px;
+}
+
+.sweed2{
+    position: relative;
+    background: yellow;
+    width: 230px;
+    height: 25px;
+    bottom: 73px;
+}
+
+.sweed3{
+    position: relative;
+    background: yellow;
+    width: 25px;
+    height: 120px;
+    left: 50px;
+    bottom: 145px;
+}
+
+.gamT{
+    background: red;
+    width: 225px;
+    height: 50px;
+    left: 50px;
+    bottom: 145px;
+}
+
+.gamM{
+    background: blue;
+    width: 225px;
+    height: 30px;
+    left: 50px;
+    bottom: 145px;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+
+}
+
+.gamB{
+    background: green;
+    width: 225px;
+    height: 50px;
+    left: 50px;
+    bottom: 145px;
+}
+
+.tong-back{
+    background: red;
+    width: 230px;
+    height: 130px;
+    left: 73px;
+}
+
+.tong1{
+    position: relative;
+    background: white;
+    width: 95px;
+    height: 65px;
+    bottom: 130px;
+}
+
+.tong2{
+    position: relative;
+    background: red;
+    width: 15px;
+    height: 40px;
+    bottom: 182px;
+    left: 38px;
+}
+
+.tong3{
+    position: relative;
+    background: red;
+    width: 40px;
+    height: 15px;
+    bottom: 210px;
+    left: 25.5px;
+
+}
+
+.japan-back{
+    background: white;
+    width: 230px;
+    height: 130px;
+}
+
+.japan-circle{
+    position: relative;
+    background: red;
+    bottom: 105px;
+    left: 72px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+    
+}
+
+.greece1 {
+    background: #0073C2;
+    height: 15px;
+    width: 230px;
+    border-bottom: 15px solid white;
+}
+
+.greece2 {
+    background: #0073C2;
+    height: 15px;
+    width: 230px;
+    border-bottom: 15px solid white;
+}
+
+.greece3 {
+    background: #0073C2;
+    height: 15px;
+    width: 230px;
+    border-bottom: 15px solid white;
+}
+
+.greece4 {
+    background: #0073C2;
+    height: 15px;
+    width: 230px;
+    border-bottom: 15px solid white;
+}
+
+.greece5 {
+    background: #0073C2;
+    height: 15px;
+    width: 230px;
+}
+
+.greece6 {
+    position: relative;
+    background: #0073C2;
+    height: 75px;
+    width: 75px;
+    bottom: 135px;
+}
+
+.greece7 {
+    position: relative;
+    background: white;
+    width: 15px;
+    height: 75px;
+    bottom: 210px;
+    left: 30px;
+}
+
+.greece8 {
+    position: relative;
+    background: white;
+    width: 75px;
+    height: 15px;
+    bottom: 255px;
+}
+
+.niger-top {
+    background : red;
+    width: 180px;
+    height: 50px;
+}
+
+.niger-mid {
+    background : white;
+    width: 180px;
+    height: 50px;
+}
+
+.niger-bot {
+    background : green;
+    width: 180px;
+    height: 50px;
+}
+
+.niger-dot{
+    position: relative;
+    background: red;
+    bottom: 97px;
+    left: 65px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%
+    
+}
+
+.mal-back{
+    background: red;
+    width: 250px;
+    height: 150px;
+    
+}
+
+.mal-green{
+    position: relative;
+    background: green;
+    width: 170px;
+    height: 70px;
+    bottom: 110px;
+    left: 40px;
+}
+
+.mal-g-circle{
+    position: relative;
+    background: green;
+    bottom: 227px;
+    left: 123px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%
+    
+}
+
+.mal-w-circle{
+    position: relative;
+    background: white;
+    bottom: 172px;
+    left: 110px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%
+    
+}
