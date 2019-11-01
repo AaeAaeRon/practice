@@ -8,12 +8,13 @@ body {
     display: block;
     width: 100%;
     height: 6%;
-    background-color: grey; 
+    background-color: white; 
     padding: 0%;
     margin: 0%;
     cursor: pointer;
     overflow: hidden;
     z-index: 1;
+    box-shadow: 0 4px 4px -4px gray;
 }
 
 nav span {
@@ -43,31 +44,50 @@ nav span {
 /* END NAVBAR */
 
 /* POSTS */
+h1, h2, h3, h4, h5, h6{
+    margin: 0%;
+    font-family: 'Quicksand';
+    padding: 0%;
+}
 .post-container {
     position: relative;
     top: 45px;
     width: 50%;
     margin: auto;
     padding: 1%;
+    
+}
+.post-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 6%;
+    padding: 2%;
 }
 .post {
     display: inline-block;
     margin: 0%;
-    line-height: 1.6;
-    padding: 1%;
-    border-bottom: black 1px solid;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+p {
+    line-height: 1.4;
+    margin: 0.5%;
+    font-family: 'Quicksand'
+}
+
+.title{
+    /* text-align: left; */
+    margin-left: 1%;
+    /* display: inline-block; */
 }
 .date{
-    margin: 0%;
-    padding: 1%;
-
-}
-.title{
-    margin: 0%;
-    padding: 1%;
-
+    /* text-align: right; */
+    margin-left: 1%;
+    /* display: inline-block; */
 }
 .image{
+
     float: left;
+    width: 200px;
     margin: 1%;
+
 }
